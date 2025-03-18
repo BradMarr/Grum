@@ -1,0 +1,3 @@
+[submodule "Silicon"]
+	path = Silicon
+	url = https://github.com/BradMarr/Silicon
