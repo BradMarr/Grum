@@ -1,12 +1,22 @@
 #include "Silicon.hpp"
 
-void Silicon::init()
+void Silicon::config()
 {
 	Silicon::setGameName("Grum");
-	Silicon::setGameResolution(Silicon::int2(800, 600));
+	Silicon::setGameResolution({ 800, 600 });
+}
+
+void Silicon::init()
+{
+
 }
 
 void Silicon::gameLoop()
 {
-	
+
+}
+
+void Silicon::cleanup()
+{
+
 }
